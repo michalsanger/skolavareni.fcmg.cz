@@ -1,0 +1,52 @@
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
+module.exports = {
+	title: "Škola vaření FCMG",
+	tagline:
+		"Recepty z legendárních škol vaření U Kastelána pod velením Michala Götha",
+	url: "https://skolavareni.fcmg.cz",
+	baseUrl: "/",
+	onBrokenLinks: "throw",
+	onBrokenMarkdownLinks: "warn",
+	favicon: "img/favicon.ico",
+	organizationName: "michalsanger", // Usually your GitHub org/user name.
+	projectName: "skolavareni.fcmg.cz", // Usually your repo name.
+	themeConfig: {
+		colorMode: {
+			disableSwitch: true,
+		},
+		navbar: {
+			title: "Škola vaření",
+			logo: {
+				alt: "FCMG logo",
+				src: "img/fcmg-logo.png",
+			},
+			items: [
+				{
+					to: "recepty/",
+					activeBasePath: "recepty",
+					label: "Recepty",
+					position: "left",
+				},
+			],
+		},
+		footer: {
+			style: "light",
+			copyright: `© ${new Date().getFullYear()} FCMG.`,
+		},
+	},
+	presets: [
+		[
+			"@docusaurus/preset-classic",
+			{
+				docs: {
+					sidebarPath: require.resolve("./sidebars.js"),
+					path: "recepty",
+					routeBasePath: "recepty",
+				},
+				theme: {
+					customCss: require.resolve("./src/css/custom.css"),
+				},
+			},
+		],
+	],
+};
