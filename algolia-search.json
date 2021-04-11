@@ -1,10 +1,10 @@
 {
   "index_name": "skolavareni-fcmg",
   "start_urls": [
-    "https://skolavareni-fcmg.vercel.app/"
+    "https://skolavareni.fcmg.cz/"
   ],
   "sitemap_urls": [
-    "https://skolavareni-fcmg.vercel.app/sitemap.xml"
+    "https://skolavareni.fcmg.cz/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [],
