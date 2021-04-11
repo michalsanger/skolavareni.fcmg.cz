@@ -24,6 +24,15 @@ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+## Search
+
+```console
+yarn search
+```
+
+This command refresh Algolia search index.
+
+
 ## Deployment
 
 Deploy is done automatically via Vercel integration.
