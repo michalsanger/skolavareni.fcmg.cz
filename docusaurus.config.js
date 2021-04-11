@@ -11,6 +11,12 @@ module.exports = {
 	organizationName: "michalsanger", // Usually your GitHub org/user name.
 	projectName: "skolavareni.fcmg.cz", // Usually your repo name.
 	themeConfig: {
+		algolia: {
+			appId: "Q6MR4LN5JG",
+			apiKey: "1e062e279835e9ecf581f135c7d90b49",
+			indexName: "skolavareni-fcmg",
+			placeholder: "Hledat v receptech",
+		},
 		colorMode: {
 			disableSwitch: true,
 		},
