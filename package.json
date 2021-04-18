@@ -1,6 +1,6 @@
 {
   "name": "skolavareni-fcmg-cz",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -15,8 +15,9 @@
     "search": "docker run -it --env-file=.algolia.env -e \"CONFIG=$(cat algolia-search.json | jq -r tostring)\" algolia/docsearch-scraper"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.72",
-    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@docusaurus/core": "^2.0.0-alpha.72",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.72",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^17.0.1",

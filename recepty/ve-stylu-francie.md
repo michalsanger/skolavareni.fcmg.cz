@@ -3,6 +3,8 @@ title: Ve stylu Francie
 slug: /
 ---
 
+import Gallery from './gallery'
+
 6.12.2009
 
 ## Koláč s čekankou a modrým sýrem se salátem s dijonskou vinaigrettou
@@ -41,6 +43,14 @@ Z mouky a nastrouhaného másla udělat drobenku. Žloutek, olej, 2 pl vody roz�
 Sýr na korpus, vymačkaná čekanka, nalít krém, sýr nahoru.
 
 180 °C 25 minut
+
+<Gallery photos={[
+require('./ve-stylu-francie/quiche-01.jpg'),
+require('./ve-stylu-francie/quiche-02.jpg'),
+require('./ve-stylu-francie/quiche-03.jpg'),
+require('./ve-stylu-francie/quiche-04.jpg'),
+]}
+/>
 
 ## Provensálská rybí polévka s rezavou majonézou a krutony
 
