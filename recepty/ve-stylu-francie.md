@@ -56,6 +56,14 @@ require('./ve-stylu-francie/quiche-04.jpg'),
 
 TKTK
 
+<Gallery photos={[
+require('./ve-stylu-francie/polevka-01.jpg'),
+require('./ve-stylu-francie/polevka-02.jpg'),
+require('./ve-stylu-francie/rezava-majoneza-01.jpg'),
+require('./ve-stylu-francie/rezava-majoneza-02.jpg'),
+]}
+/>
+
 ## Konfitované kachní stehno s omáčkou z hrubozrnné hořčice
 
 TKTK
@@ -73,6 +81,14 @@ TKTK
 
 Na másle opéct šalotku, podlít vínem a nechat vyvařit. Přidat vývar, rozmíchat hořčici, zjemnit smetanou.
 
+<Gallery photos={[
+require('./ve-stylu-francie/confit-01.jpg'),
+require('./ve-stylu-francie/confit-02.jpg'),
+require('./ve-stylu-francie/confit-03.jpg'),
+require('./ve-stylu-francie/confit-04.jpg'),
+]}
+/>
+
 ## Klasický vanilkový pálený krém &ndash; Crème Brûlée
 
 - **3 dl** smetany
@@ -88,6 +104,14 @@ Svařit smetanu, mléko a vanilku.
 Smíchat žloutky s cukrem a smíchat s horkým mlékem. Nešlehat.
 
 180 °C 25 minut
+
+<Gallery photos={[
+require('./ve-stylu-francie/creme-brulee-01.jpg'),
+require('./ve-stylu-francie/creme-brulee-02.jpg'),
+require('./ve-stylu-francie/creme-brulee-03.jpg'),
+require('./ve-stylu-francie/creme-brulee-04.jpg'),
+]}
+/>
 
 ## Externí odkazy
 
