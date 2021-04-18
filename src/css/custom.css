@@ -23,3 +23,12 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.gallery .photo {
+  height: 185px;
+  width: 185px;
+  padding: 4px;
+  margin: 4px;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+}
