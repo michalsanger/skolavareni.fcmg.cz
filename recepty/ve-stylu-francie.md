@@ -88,3 +88,7 @@ Svařit smetanu, mléko a vanilku.
 Smíchat žloutky s cukrem a smíchat s horkým mlékem. Nešlehat.
 
 180 °C 25 minut
+
+## Externí odkazy
+
+- [Fotogalerie &copy; Michal Sänger](https://flickr.com/photos/lokon/albums/72157623283969938/)

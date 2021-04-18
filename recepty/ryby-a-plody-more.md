@@ -88,3 +88,7 @@ Uvařené těstoviny prohřát ve vývaru s máslem, osolit.
 ## Salát z ananasu s kokosem
 
 TKTK
+
+## Externí odkazy
+
+- [Fotogalerie &copy; Michal Sänger](https://flickr.com/photos/lokon/albums/72157623212629051/)
