@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <section style={{ marginTop: "2em" }}>
+        <section style={{ marginTop: "2em", marginBottom: "2em" }}>
           <div className="container">
             <div className="row">
               <div className="col">
