@@ -43,9 +43,13 @@ module.exports = {
           title: "O projektu",
           items: [
             {
+              label: "Novinky",
+              to: "blog"
+            },
+            {
               label: "Technické informace",
               to: "technicke-informace"
-            }
+            },
           ]
         }
       ]
