@@ -38,6 +38,17 @@ module.exports = {
     footer: {
       style: "light",
       copyright: `© ${new Date().getFullYear()} FCMG.`,
+      links: [
+        {
+          title: "O projektu",
+          items: [
+            {
+              label: "Technické informace",
+              to: "technicke-informace"
+            }
+          ]
+        }
+      ]
     },
   },
   presets: [
