@@ -37,11 +37,15 @@ module.exports = {
     },
     footer: {
       style: "light",
-      copyright: `© ${new Date().getFullYear()} FCMG.`,
+      copyright: `© ${new Date().getFullYear()} FCMG`,
       links: [
         {
           title: "O projektu",
           items: [
+            {
+              label: "Kontakt",
+              to: "kontakt"
+            },
             {
               label: "Novinky",
               to: "blog"
