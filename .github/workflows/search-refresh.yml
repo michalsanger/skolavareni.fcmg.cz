@@ -1,0 +1,22 @@
+name: Refresh Search Index
+
+on: [deployment_status]
+
+jobs:
+  search-refresh:
+    # only runs this job on successful deploy of master
+    if: github.event.deployment_status.state == 'success' && github.event.deployment_status.ref == 'master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Scrape the site
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          docker run \
+          -e APPLICATION_ID -e API_KEY \
+          -e CONFIG="$(cat algolia-search.json | jq -r tostring)" \
+          algolia/docsearch-scraper
