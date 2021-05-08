@@ -2,7 +2,16 @@
 title: Menu Chřest
 ---
 
+import Gallery from './gallery'
+
 29.5.2011
+
+<Gallery photos={[
+require('./menu-chrest/kurz-01.jpg'),
+require('./menu-chrest/kurz-02.jpg'),
+require('./menu-chrest/kurz-03.jpg'),
+]}
+/>
 
 ## Domácí špaldový chléb
 
@@ -28,6 +37,11 @@ Vyrobit kvásek, vypracovat těsto, na závěr přidat semínka. Dát do form
 ### Postup
 
 Vypracovat rukama hladké těsto a nechat v ledničce zatuhnout. Vyválet a naplnit zeleninou opečenou na másle se smetanou a česnekem. Péct na 170 °C 5 &ndash; 20 minut.
+
+<Gallery photos={[
+require('./menu-chrest/tasticky-01.jpg'),
+]}
+/>
 
 ## Salát z chřestu se sušenou šunkou a nektarinkou
 
@@ -107,6 +121,11 @@ Filátka lehce poklepat, osolit jemně, potřít fáší a položit plát
 
 Chřest povařit ve várce a servírovat s listovým salátem s vinaigrettem.
 
+<Gallery photos={[
+require('./menu-chrest/rolada-01.jpg'),
+]}
+/>
+
 ## Karamelový plátkový dezert
 
 - **100 g** rozpuštěného másla
@@ -119,6 +138,11 @@ Chřest povařit ve várce a servírovat s listovým salátem s vinaigrettem.
 ### Postup
 
 Na studený plech natřít tenkou vrstvu těsta a péct na 210 °C 7 &ndash; 8 minut. Vyšlehat smetanu do tuha, prokládat čerstvým ovocem a vrstvit dezert.
+
+<Gallery photos={[
+require('./menu-chrest/dezert-01.jpg'),
+]}
+/>
 
 ## Dodatek
 
