@@ -10,6 +10,7 @@ import Gallery from './gallery'
 require('./menu-chrest/kurz-01.jpg'),
 require('./menu-chrest/kurz-02.jpg'),
 require('./menu-chrest/kurz-03.jpg'),
+require('./menu-chrest/kurz-04.jpg'),
 ]}
 />
 
@@ -68,6 +69,13 @@ Chřest povařit v základní chřestové várce z vody, másla, cukru, sol
 
 Nektarinky (mohou být i broskve) povařit krátce ve víně s cukrem, kořením a zázvorem. Nechat marinovat půl hodiny. Po vychlazení servírovat. Vhodné i k masu nebo šunce.
 
+<Gallery photos={[
+require('./menu-chrest/salat-01.jpg'),
+require('./menu-chrest/salat-02.jpg'),
+require('./menu-chrest/salat-03.jpg'),
+]}
+/>
+
 ## Dvojí carpaccio: chřestové a z hovězi svíčkové s piniemi a marinovanými rajčátky
 
 - hovězí svíčková
@@ -90,6 +98,11 @@ Připravit vinaigrette z 1/3 bílého balsamica a 2/3 olivového oleje s moř
 
 Nakrájet rajčata, bazalku a marinovat ve vinaigrette 1 až 2 hodiny.
 
+<Gallery photos={[
+require('./menu-chrest/carpaccio-01.jpg'),
+]}
+/>
+
 ## Chřestový krém se smetanou a pimentem
 
 - bílý chřest
@@ -104,6 +117,12 @@ Nakrájet rajčata, bazalku a marinovat ve vinaigrette 1 až 2 hodiny.
 ### Postup
 
 Na másle opéct šalotku, kousky chřestu, zastříknout octem, vínem, zalít vývarem a vařit do změknutí. Chceme-li polévku hustou, povaříme s bramborem. Přidat smetanu, rozmixovat a propasírovat. Před podáváním vyšlehat s kořením piment d'espelette.
+
+<Gallery photos={[
+require('./menu-chrest/krem-01.jpg'),
+require('./menu-chrest/krem-02.jpg'),
+]}
+/>
 
 ## Roláda z kukuřičnéh kuřátka s uzeným lososem, chřest a malý salát
 
@@ -122,7 +141,13 @@ Filátka lehce poklepat, osolit jemně, potřít fáší a položit plát
 Chřest povařit ve várce a servírovat s listovým salátem s vinaigrettem.
 
 <Gallery photos={[
+require('./menu-chrest/rolada-02.jpg'),
+require('./menu-chrest/rolada-03.jpg'),
+require('./menu-chrest/rolada-04.jpg'),
 require('./menu-chrest/rolada-01.jpg'),
+require('./menu-chrest/rolada-05.jpg'),
+require('./menu-chrest/rolada-06.jpg'),
+require('./menu-chrest/rolada-07.jpg'),
 ]}
 />
 
@@ -146,4 +171,4 @@ require('./menu-chrest/dezert-01.jpg'),
 
 ## Dodatek
 
-Máte fotky z tohoto kurzu? [Kontaktujte](/kontakt) mě prosím.
+Máte fotky z tohoto kurzu? [Kontaktujte](/kontakt) mě prosím. Většina fotek zde je z [rekonstrukce](/blog/2021/05/14/rekonstrukce-chrestoveho-menu), výsledný food styling pravděpodobně vůbec neodpovídá původnímu.
