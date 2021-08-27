@@ -10,6 +10,10 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "michalsanger", // Usually your GitHub org/user name.
   projectName: "skolavareni.fcmg.cz", // Usually your repo name.
+  i18n: {
+    defaultLocale: "cs",
+    locales: ["cs"],
+  },
   themeConfig: {
     algolia: {
       appId: "Q6MR4LN5JG",
@@ -44,19 +48,19 @@ module.exports = {
           items: [
             {
               label: "Kontakt",
-              to: "kontakt"
+              to: "kontakt",
             },
             {
               label: "Novinky",
-              to: "blog"
+              to: "blog",
             },
             {
               label: "Technické informace",
-              to: "technicke-informace"
+              to: "technicke-informace",
             },
-          ]
-        }
-      ]
+          ],
+        },
+      ],
     },
   },
   presets: [
