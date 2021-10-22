@@ -1542,7 +1542,7 @@
     webpack-merge "^5.8.0"
     webpackbar "^5.0.0-3"
 
-"@docusaurus/core@^2.0.0-beta.8":
+"@docusaurus/core@2.0.0-beta.8", "@docusaurus/core@^2.0.0-beta.8":
   version "2.0.0-beta.8"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-beta.8.tgz#7e24547a26e34e4d288f19883e08ac29b7946325"
   integrity sha512-KVbZoOCxQKvbX1RT8qrHAsPVYPGDnXFevTeJbZW1XQb0OPv7oh5nijXJvzNeGupXP561BByrsdHT7IxM/hT0CQ==
@@ -1645,10 +1645,10 @@
     postcss "^8.3.7"
     postcss-sort-media-queries "^4.1.0"
 
-"@docusaurus/lqip-loader@2.0.0-beta.7":
-  version "2.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@docusaurus/lqip-loader/-/lqip-loader-2.0.0-beta.7.tgz#b5d8378248a7325fd259a83152d613ea6a57c250"
-  integrity sha512-/yNYHeKyeEQuUIvEU9kBvNs1LlfFQ24frYhle5uBiyvsMk4nA1IPjZC6me6VI21bj4OHdJjtx//7AOQzff5eAQ==
+"@docusaurus/lqip-loader@2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@docusaurus/lqip-loader/-/lqip-loader-2.0.0-beta.8.tgz#c0ae21bb347c6b1bba49b6ea3f98e126636939ef"
+  integrity sha512-JSs87LnKI9H63KVsN+vfsF5EV4lcArFcMro1dLpYiBMLAtWYpytKutHnC3IMuqkiIaULpVFpAVRqIhaivjFa0w==
   dependencies:
     file-loader "^6.2.0"
     lodash "^4.17.20"
@@ -1771,15 +1771,15 @@
   dependencies:
     "@docusaurus/core" "2.0.0-beta.7"
 
-"@docusaurus/plugin-ideal-image@^2.0.0-beta.7":
-  version "2.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.0.0-beta.7.tgz#9ca1f66ce6e51652d9de39721f09e7611766af18"
-  integrity sha512-kGJ9ploYjOX3NzCundgAWMr5tBYfCKT3KtHnUg2co19lCvHsMwI9exi7Bd9cuY1646RIYgTQ/O+pPx2j0Q0iSw==
+"@docusaurus/plugin-ideal-image@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-ideal-image/-/plugin-ideal-image-2.0.0-beta.8.tgz#d1361ae7553c36706cc2082dab4d6f41fb755f23"
+  integrity sha512-UpUnFzdaohVZFcsb5bdlN1N17ZFyMEVQf5WytuJHBOJhkJnLf2DYGcQ94lXg2p8mCc5Y4kgAy9TkXcYenGaszw==
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.7"
-    "@docusaurus/lqip-loader" "2.0.0-beta.7"
+    "@docusaurus/core" "2.0.0-beta.8"
+    "@docusaurus/lqip-loader" "2.0.0-beta.8"
     "@docusaurus/responsive-loader" "1.4.0"
-    "@docusaurus/types" "2.0.0-beta.7"
+    "@docusaurus/types" "2.0.0-beta.8"
     "@endiliey/react-ideal-image" "^0.0.11"
     react-waypoint "^10.1.0"
     sharp "^0.29.1"
