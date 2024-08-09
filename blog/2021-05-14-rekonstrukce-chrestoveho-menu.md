@@ -1,7 +1,6 @@
 ---
 title: Rekonstrukce chřestového menu
-author: Michal Sänger
-author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+authors: michal
 ---
 
 V sobotu 8.5.2021 proběhla rekonstrukce chřestového menu.
