@@ -1,7 +1,6 @@
 ---
 title: Automatizace vyhledávání
-author: Michal Sänger
-author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+authors: michal
 ---
 
 Vyhledávací index se nyní aktualizuje automaticky při každé změně.

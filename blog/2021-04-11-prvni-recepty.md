@@ -1,7 +1,6 @@
 ---
 title: První recepty
-author: Michal Sänger
-author_image_url: https://graph.facebook.com/611217057/picture/?height=200&width=200
+authors: michal
 ---
 
 Pomalu kupředu, první recepty jsou online.
