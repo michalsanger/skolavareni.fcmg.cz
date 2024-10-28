@@ -5,5 +5,6 @@ module.exports = {
     "menu-2010-04-04",
     "menu-2010-06-06",
     "menu-chrest",
+    "menu-2013-03-03",
   ],
 };
